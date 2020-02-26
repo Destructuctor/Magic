@@ -1,0 +1,9 @@
+name: TVWMagic
+version: ${project.version}
+main: com.tvw.TVWMagic
+api-version: 1.13
+commands:
+  getbook:
+    usage: /<command>
+    permission: tvwm.book
+    description: Get a spellbook
